@@ -35,13 +35,13 @@ function banner(){
 	sleep 0.05
 	echo -e "\__,_/ \__,_/ \__/ \____/      /_.___//____/ _  .___/____/|__/ /_/ /_/ /_/    ${endColour}${yellowColour}(${endColour}${grayColour}By ${endColour}${purpleColour}@r1vs3c${endColour}${yellowColour})${endColour}${turquoiseColour}"
 	sleep 0.05
-    echo -e "                                             /_/${endColour}"
+    	echo -e "                                             /_/${endColour}"
 }
 
 if [ "$user" == "root" ]; then
 	banner
 	echo -e "\n\n${redColour}[!] You should not run the script as the root user!\n${endColour}"
-    exit 1
+    	exit 1
 else
 	banner
 	sleep 1
