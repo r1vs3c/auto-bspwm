@@ -62,6 +62,7 @@ chmod +x setup.sh
    - <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>: Undo the preselection.
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>: Open a sub-window in the current window.
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>: Open a tab in the current window.
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>: Rename the title of the current tab.
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd>: Zoom in on the current sub-window.
 - <kbd>Ctrl</kbd> + <kbd>(⬆⬅⬇➡)</kbd>: Navigate through sub-windows in the current window.
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>: Close the current sub-window or tab.
@@ -86,7 +87,10 @@ This configuration uses the following software:
 - **Hotkey**: [sxhkd](https://github.com/baskerville/sxhkd)
 - **Locker**: [i3lock-fancy](https://github.com/meskarune/i3lock-fancy)
 - **Shell**: [zsh](https://www.zsh.org/)
+- **Shell Theme**: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- **Shell configuration manager**: [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - **Bars**: [polybar](https://github.com/polybar/polybar)
+- **Bars Theme**: [polybar-themes](https://github.com/adi1090x/polybar-themes)
 - **Compositor**: [picom](https://github.com/yshui/picom)
 - **File Manager**: [thunar](https://docs.xfce.org/xfce/thunar/start)
 - **Fonts**: [iosevka](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka) and [hack](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack)
@@ -98,4 +102,5 @@ This configuration uses the following software:
 - **Screenshot**: [flameshot](https://flameshot.org/)
 
 ## Credits
-This environment has been inspired by the functionalities of [S4vitar's](https://github.com/s4vitar) environment.
+- This environment has been inspired by the functionalities of [S4vitar's](https://github.com/s4vitar) environment.
+- Thanks to [Cube](https://github.com/ZLCube) for their contribution to the creation of the `archkali.png` wallpaper.
