@@ -101,6 +101,7 @@ This configuration uses the following software:
 - **Static Wallpaper**: [feh](https://github.com/derf/feh)
 - **Color Scheme**: [pywal](https://github.com/dylanaraps/pywal)
 - **Screenshot**: [flameshot](https://flameshot.org/)
+- **Wordlits**: [seclists](https://github.com/danielmiessler/SecLists)
 
 ## Credits
 - This environment has been inspired by the functionalities of [S4vitar's](https://github.com/s4vitar) environment.
