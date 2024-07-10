@@ -99,7 +99,6 @@ This configuration uses the following software:
 - **Browsers**: [firefox](https://www.mozilla.org/en-US/firefox/new/)
 - **Terminals**: [kitty](https://sw.kovidgoyal.net/kitty/) and [qterminal](https://github.com/lxqt/qterminal)
 - **Static Wallpaper**: [feh](https://github.com/derf/feh)
-- **Color Scheme**: [pywal](https://github.com/dylanaraps/pywal)
 - **Screenshot**: [flameshot](https://flameshot.org/)
 
 ## Credits
