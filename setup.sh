@@ -55,18 +55,7 @@ else
 		echo -e "\n${greenColour}[+] Done\n${endColour}"
 		sleep 1.5
 	fi
-
-	echo -e "\n${blueColour}[*] Installing pywal...\n${endColour}"
-	sleep 2
-	sudo pip3 install pywal
-	if [ $? != 0 ] && [ $? != 130 ]; then
-		echo -e "\n${redColour}[-] Failed to install pywal or operation cancelled by user!\n${endColour}"
-		exit 1
-	else
-		echo -e "\n${greenColour}[+] Done\n${endColour}"
-		sleep 1.5
-	fi
-
+ 
 	echo -e "\n${blueColour}[*] Starting installation of necessary dependencies for the environment...\n${endColour}"
 	sleep 0.5
 
@@ -256,7 +245,6 @@ else
 	chmod +x ~/.config/polybar/launch.sh
 	chmod +x ~/.config/polybar/shapes/scripts/*
 	sudo chmod +x /usr/local/bin/whichSystem.py
-	sudo chmod +x /usr/local/bin/screenshot
 	sudo chmod +x /usr/local/share/zsh/site-functions/_bspc
 	sudo chown root:root /usr/local/share/zsh/site-functions/_bspc
 	sudo mkdir -p /root/.config/polybar/shapes/scripts/
